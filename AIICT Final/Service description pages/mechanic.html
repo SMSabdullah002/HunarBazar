@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="servicediscrip.css" />
+        <link rel="stylesheet" href="/CSS/head-foot.css" />
+    <title>Mechanic</title>
+    <script src="/addtocart.js"></script>
+    <script >
+      function redirectToAnotherPage() {
+    window.location.href = '/contact.html';
+  }
+    </script>
+  </head>
+  <body>
+    <div class="header" id="myTopnav">
+      <div class="container" ><img style="border-bottom-right-radius: 10px;" src="/Images/logob.png" alt="Hunar Bazaar" width="200px" ></div>
+      <div style="width: 75%;  background:  linear-gradient(243deg, #5F78FF 0%, rgba(0, 160, 250, 0.60)100.28% );border-end-end-radius: 20px;margin-bottom:100px; padding-left: 150px;" >
+          <ul class="sections-ul">
+              <li><a href="/Hompage.html" style="color:white; ">Home</a></li>
+              <li><a href="/service.html" style="color:white;">Services</a></li>
+              <li><a href="/contact.html" style="color:white;">Contact Us</a></li>
+              <li   style="color:white;"><a href="/Service description pages/cartpage.html" style="color:white;">Cart</a></li>
+              
+          </ul>
+      </div>
+  </div>
+  <body>
+    <div class="service-description">
+      <img src="/Images/Mechanic.png" class="service-image" alt="Dry Cleaner Service">
+      
+      <div class="service-details">
+        <h1 class="service-title">Mechanic Services</h1>
+        <p class="service-description">Our skilled mechanics are committed to delivering top-notch automotive services. Whether you require repairs, maintenance, or diagnostics, we have the expertise to cater to your vehicle's needs.</p>
+
+        <p>Why choose our Mechanic services:</p>
+        <ul>
+            <li>Licensed and experienced mechanics</li>
+            <li>Efficient and timely service</li>
+            <li>Customized solutions for your vehicle</li>
+            <li>24/7 emergency mechanical services</li>
+            <li>Up-to-date with automotive industry standards</li>
+        </ul>
+
+        <strong>Rs. 1500</strong>
+      </div>
+      <button class="book-now-btn " onclick="addToCart('Mechanic Service', 1500)">Add to Cart</button>
+
+      </div>
+      <div class="service-cards">
+        <div class="service-card">
+          <h2 class="service-title">Car Service</h2>
+          <p class="service-description">Keep your car in top shape with our comprehensive service. From routine maintenance to diagnostics, we ensure your vehicle runs smoothly for a safe and enjoyable drive.</p>
+        </div>
+      
+        <div class="service-card">
+          <h2 class="service-title">Bike Service</h2>
+          <p class="service-description">Give your bike the care it deserves. Our professional service includes tune-ups and repairs, ensuring a smooth and reliable ride for your cycling adventures.</p>
+        </div>
+      
+        <div class="service-card">
+          <h2 class="service-title">Truck Service</h2>
+          <p class="service-description">Trust our specialized service for your truck's reliability. From engine repairs to brake maintenance, we cater to the unique needs of commercial vehicles, keeping them efficient and road-ready.</p>
+        </div>
+      </div>
+
+    <div class="footer" style="background: white;">
+      <div style="max-width: 80%; margin: auto;">
+          <div style="display: flex;">
+              <h4 style="margin: 0;">Hunar <span style="color: #5f78ff;">Bazaar</span></h4>
+              <button class="connect-button" style="margin-left: 5rem;"onclick="redirectToAnotherPage()">Connect</button>
+          </div>
+          <ul style="padding: 0; margin: 3rem 0; list-style-type: none;
+          display: flex;">
+              <li><a style="color: black;" href="/contact.html">Contact Us</a></li>
+              <li><a style="color: black;" href="/service.html">Services</a></li>
+              <li><a style="color: black;" href="#">Privacy Policy</a></li>
+          </ul>
+    
+    
+          <p>Copyright &copy; 2023 Hunar Bazaar All rights Reserved<br>
+             
+      </div>
+    </div>
+  </body>
+
+</html>

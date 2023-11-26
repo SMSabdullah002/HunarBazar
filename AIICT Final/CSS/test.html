@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .servicepic {
+      width: 450px;
+      height: 30vh;
+      background-color: white;
+      border: 1px solid white;
+      margin: 10px;
+      display: inline-block;
+      text-align: center;
+      position: relative;
+    }
+
+    .servicepic:hover .overlay {
+      opacity: 1;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .overlay p {
+      margin: 0;
+      font-size: 16px;
+      color: #5f78ff;
+    }
+
+    .abc {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="servicepic">
+  <img src="/Images/Plumber.png" class="image">
+  <div class="overlay">
+    <div class="text" style="color:#5f78ff">Plumber</div>
+    <p>12 jobs available</p>
+  </div>
+</div>
+
+<!-- Repeat the above structure for other service images -->
+
+</body>
+</html>

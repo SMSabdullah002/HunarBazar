@@ -1,0 +1,79 @@
+/* styles.css */
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(243deg, #5F78FF 0%, rgba(0, 160, 250, 0.60)100.28%), url("/Images/Reg.png");
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 36px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    text-align: left;
+
+
+    font-family: "Montserrat";
+}
+
+.login-container label {
+    font-family: "Montserrat";
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-container input {
+    font-family: "Montserrat";
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #9D9D9D;
+}
+
+.login-container button {
+    font-family: 'Poppins', sans-serif;
+    background-color: #3374e4;
+    color: #fff;
+    padding: 10px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-container button:hover {
+    background-color: #61BEFC;
+}
+
+.create-account {
+    display: flex;
+    margin-top: 20px;
+    font-size: 12px;
+    padding-left: 70px;
+
+}
+
+.create-account a {
+    color: #ffffff;
+}

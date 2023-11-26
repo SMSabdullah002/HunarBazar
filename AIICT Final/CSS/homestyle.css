@@ -1,0 +1,160 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Regular.ttf");
+}
+
+
+
+
+
+body {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.header {
+
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero {
+  background: linear-gradient(243deg, #5F78FF 0%, rgba(0, 160, 250, 0.60)50.28%),
+    url(/Images/Hero.png);
+  margin-top: 5rem;
+  min-height: 100vh;
+
+}
+
+.search-bar {
+  border-radius: 50px;
+  max-width: 25%;
+  margin-top: 6rem;
+  margin-right: 10rem;
+
+
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 6rem auto;
+
+}
+
+
+
+.btn-hover {
+  width: 1000px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 7700% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .9s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.btn-hover {
+  background-image: linear-gradient(to right, #61BEFC, #61BEFC, #5865F2);
+  box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+
+.sections-ul {
+  font-weight: 500%;
+  list-style-type: none;
+  display: flex;
+}
+
+.sections-ul li {
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
+}
+
+.top-categories {
+  margin: 0 auto;
+  padding: 2rem;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.top-categories img {
+  width: 100%;
+}
+
+.serpic {
+  border-radius: 10px;
+  transition: transform 0.3s;
+  /* Add a smooth transition effect */
+}
+
+.serpic:hover {
+  transform: scale(1.2);
+  /* Enlarge the image on hover */
+}
+
+.image-container {
+  max-width: 200px;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255) 0.19;
+  margin-bottom: 3rem;
+}
+
+.images-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.connect-button {
+  background: transparent;
+  border-radius: 50px;
+  box-shadow: -3px 3px gray;
+  border: none;
+}
+
+ul li {
+
+  margin: 0 3rem 0 0;
+}
+
+.sections-ul li a {
+  font-weight: 500px;
+  color: white;
+}
+
+.footer {
+  margin-top: 5rem;
+}

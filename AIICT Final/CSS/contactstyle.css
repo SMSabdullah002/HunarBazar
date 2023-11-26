@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Montserrat";
+
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.close-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.671);
+  color: black;
+  border: 2px black;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  line-height: 26px;
+}
+
+.contact-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 30px;
+
+  text-align: center;
+  width: 300px;
+}
+
+.contact-heading {
+  font-family: "Montserrat";
+
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-family: "Montserrat";
+
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: "Montserrat";
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: "Montserrat";
+}
+
+.submit-btn {
+  font-family: "Montserrat";
+  background-color: #3374e4;
+  color: #fff;
+  padding: 10px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 100%;
+}

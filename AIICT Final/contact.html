@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="/CSS/contactstyle.css">
+    <script>
+      function closeForm() {
+    const formToClose = document.getElementById('contact-form');
+    formToClose.style.display = 'none';
+
+    // Use window.history to go back to the previous page
+    window.history.back();
+}
+
+
+      function submitForm() {
+        // Get form values
+        const category = document.getElementById('category').value;
+        const email = document.getElementById('email').value;
+        const description = document.getElementById('description').value;
+
+        // Check if any field is empty
+        if (!category || !email || !description) {
+          alert('Please fill in all fields.');
+          return;
+        }
+
+        // Show custom alert
+        alert('Thank you! We will be in touch with you soon.');
+
+        // Optionally, you can reset the form after submission
+        document.getElementById('contact-form').reset();
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="contact-container" id="contact-form">
+      <div class="close-btn" onclick="closeForm()">×</div>
+
+      <div class="contact-heading"><h1>Contact Form</h1></div>
+      <form onsubmit="submitForm(); return false;">
+        <div class="form-group">
+          <label for="category">Category:</label>
+          <input type="text" id="category" name="category" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <textarea
+            id="description"
+            name="description"
+            rows="4"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

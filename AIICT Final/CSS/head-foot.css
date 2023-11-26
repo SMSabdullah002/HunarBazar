@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/CSS/Montserrat-Regular.ttf");
+}
+
+body {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.header {
+
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero {
+  background: linear-gradient(243deg, #5F78FF 0%, rgba(0, 160, 250, 0.60)50.28%),
+    url(/Images/Hero.png);
+  margin-top: 5rem;
+  min-height: 100vh;
+
+}
+
+.search-bar {
+  border-radius: 50px;
+  max-width: 25%;
+  margin-top: 6rem;
+  margin-right: 10rem;
+
+
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar {
+  text-align: center;
+  margin: 6rem auto;
+
+}
+
+.sections-ul {
+  font-weight: 500%;
+  list-style-type: none;
+  display: flex;
+}
+
+.sections-ul li {
+  padding: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
+}
+
+.top-categories {
+  margin: 0 auto;
+  padding: 2rem;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.top-categories img {
+  width: 100%;
+}
+
+.image-container {
+  max-width: 200px;
+
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgb(255, 255, 255) 0.19;
+  margin-bottom: 3rem;
+}
+
+.images-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.connect-button {
+  background: transparent;
+  border-radius: 50px;
+  box-shadow: -3px 3px gray;
+  border: none;
+}
+
+ul li {
+
+  margin: 0 3rem 0 0;
+}
+
+.sections-ul li a {
+  font-weight: 500px;
+  color: white;
+}
+
+.footer {
+  margin-top: 5rem;
+}

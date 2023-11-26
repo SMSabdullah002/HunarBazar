@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billing Details</title>
+    <link rel="stylesheet" href="/CSS/payment.css" />
+    <link rel="stylesheet" href="/CSS/head-foot.css" />
+    
+  </head>
+  <body>
+    <header>
+      <div class="header" id="myTopnav">
+        <div class="container" ><img style="border-bottom-right-radius: 10px;" src="/Images/logob.png" alt="Hunar Bazaar" width="200px" ></div>
+        <div style="width: 75%;  background:  linear-gradient(243deg, #5F78FF 0%, rgba(0, 160, 250, 0.60)100.28% );border-end-end-radius: 20px;margin-bottom:100px; padding-left: 150px;" >
+            <ul class="sections-ul">
+                <li><a href="/Hompage.html" style="color:white; ">Home</a></li>
+                <li><a href="/service.html" style="color:white;">Services</a></li>
+                <li><a href="/contact.html" style="color:white;">Contact Us</a></li>
+               
+                
+            </ul>
+        </div>
+    </div>
+      <h1>Billing Details</h1>
+    </header>
+    <main>
+      <form action="#">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone-number">Phone Number</label>
+            <input type="tel" name="phone-number" id="phone-number" required />
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" required />
+          </div>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select name="country" id="country" required>
+              <option value="Pakistan">Pakistan</option>
+              <option value="India">India</option>
+              <option value="United States">United States</option>
+              <option value="United Kingdom">United Kingdom</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="zip-code">ZIP Code</label>
+            <input type="number" name="zip-code" id="zip-code" required />
+          </div>
+        </div>
+
+        <fieldset class="payment-info">
+          <legend>Payment Information</legend>
+
+          <section class="payment-options">
+            <h2>Payment Options</h2>
+            
+            <div class="payment-option">
+              <input
+                type="radio"
+                name="payment-method"
+                id="cash-on-delivery"
+                value="cash-on-delivery" />
+                
+              <label for="cash-on-delivery">
+                <img src="/Images/cash-on-delivery.png" alt="Cash on Delivery" />
+                <p>Cash on Delivery</p>
+              </label>
+            </div>
+          </section>
+
+          <section class="order-summary">
+            <h2>Order Summary</h2>
+
+            <table>
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>RS. 30,000</td>
+                </tr>
+                <tr>
+                  <td>Tax</td>
+                  <td>RS. 1340</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>RS. 30,340</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </fieldset>
+
+        <input type="submit" value="Checkout" />
+      </form>
+    </main>
+
+    <div class="footer" style="background: white;">
+      <div style="max-width: 80%; margin: auto;">
+          <div style="display: flex;">
+              <h4 style="margin: 0;">Hunar <span style="color: #5f78ff;">Bazaar</span></h4>
+              <button class="connect-button" style="margin-left: 5rem;"onclick="redirectToAnotherPage()">Connect</button>
+          </div>
+          <ul style="padding: 0; margin: 3rem 0; list-style-type: none;
+          display: flex;">
+              <li><a style="color: black;" href="/contact.html">Contact Us</a></li>
+              <li><a style="color: black;" href="/service.html">Services</a></li>
+              <li><a style="color: black;" href="#">Privacy Policy</a></li>
+          </ul>
+    
+    
+          <p>Copyright &copy; 2023 Hunar Bazaar All rights Reserved<br>
+             
+      </div>
+    </div>
+  </body>
+</html>

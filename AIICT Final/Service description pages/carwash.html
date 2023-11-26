@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="servicediscrip.css" />
+    <link rel="stylesheet" href="/CSS/head-foot.css" />
+    <title>Car Wash</title>
+    <script src="/addtocart.js"></script>
+    <script>
+      function redirectToAnotherPage() {
+    window.location.href = '/contact.html';
+  }
+    </script>
+  </head>
+  <body>
+    <div class="header" id="myTopnav">
+      <div class="container" ><img style="border-bottom-right-radius: 10px;" src="/Images/logob.png" alt="Hunar Bazaar" width="200px" ></div>
+      <div style="width: 75%;  background:  linear-gradient(243deg, #5F78FF 0%, rgba(0, 160, 250, 0.60)100.28% );border-end-end-radius: 20px;margin-bottom:100px; padding-left: 150px;" >
+          <ul class="sections-ul">
+              <li><a href="/Hompage.html" style="color:white; ">Home</a></li>
+              <li><a href="/service.html" style="color:white;">Services</a></li>
+              <li><a href="/contact.html" style="color:white;">Contact Us</a></li>
+              <li   style="color:white;"><a href="/Service description pages/cartpage.html" style="color:white;">Cart</a></li>
+              
+          </ul>
+      </div>
+  </div>
+  <body>
+    <div class="service-description">
+      <img src="/Images/car.png " class="service-image" alt="Dry Cleaner Service">
+      
+      <div class="service-details">
+        <h1 class="service-title">Car Wash  Services</h1>
+        <p>Treat your vehicle to a sparkling clean with our premium car wash services. We offer a range of options to suit your car's needs, from basic exterior washes to comprehensive detailing packages. Our expert team ensures that your car leaves looking immaculate, both inside and out.</p>
+
+        <p>Why choose our Car Wash services:</p>
+        <ul>
+            <li>Thorough exterior cleaning</li>
+            <li>Interior vacuuming and detailing</li>
+            <li>Hand-drying for a streak-free finish</li>
+            <li>Premium waxing and polishing options</li>
+            <li>Environmentally friendly cleaning products</li>
+        </ul>
+        <strong>Rs.500</strong>
+        
+    
+      </div>
+      <button class="book-now-btn " onclick="addToCart('Car Wash Service', 500)">Add to Cart</button>
+
+      </div>
+      <div class="service-cards">
+        <div class="service-card">
+            <h2 class="service-title">Exterior Detailing</h2>
+            <p class="service-description">Revitalize your vehicle's exterior with our thorough detailing service. From hand washing to waxing, we bring back the shine.</p>
+        </div>
+    
+        <div class="service-card">
+            <h2 class="service-title">Interior Cleaning</h2>
+            <p class="service-description">Experience a fresh and spotless interior with our professional cleaning. Vacuuming, upholstery care, and more for a comfortable ride.</p>
+        </div>
+    
+        <div class="service-card">
+            <h2 class="service-title">Express Wash</h2>
+            <p class="service-description">In a hurry? Our express wash provides a quick and efficient clean, leaving your car looking refreshed and ready to hit the road.</p>
+        </div>
+    </div>
+    
+    <div class="footer" style="background: white;">
+      <div style="max-width: 80%; margin: auto;">
+          <div style="display: flex;">
+              <h4 style="margin: 0;">Hunar <span style="color: #5f78ff;">Bazaar</span></h4>
+              <button class="connect-button" style="margin-left: 5rem;"onclick="redirectToAnotherPage()">Connect</button>
+          </div>
+          <ul style="padding: 0; margin: 3rem 0; list-style-type: none;
+          display: flex;">
+              <li><a style="color: black;" href="/contact.html">Contact Us</a></li>
+              <li><a style="color: black;" href="/service.html">Services</a></li>
+              <li><a style="color: black;" href="#">Privacy Policy</a></li>
+          </ul>
+    
+    
+          <p>Copyright &copy; 2023 Hunar Bazaar All rights Reserved<br>
+             
+      </div>
+    </div>
+  </body>
+
+</html>
